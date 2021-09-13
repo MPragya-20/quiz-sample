@@ -1,0 +1,52 @@
+.answer,.question {
+    padding: 20px;
+}
+.answer span{
+    background-color: rgb(135, 206, 235);
+    padding: 10px;
+    margin-right: 20px;
+}
+.answer{
+    margin-left: 100px;
+    border: 1px solid #dadada;
+    margin-bottom: 5px;
+    width: 350px;
+}
+.answer:hover{
+    background-color: rgb(204, 255, 251);
+    cursor: pointer;
+}
+.point{
+    background-color: rgb(56, 190, 56);
+    border-radius: 40%;
+    padding: 10px 15px;
+}
+.question{
+    margin-top: 30px;
+}
+.content{
+    padding: 50px;
+}
+.content>span{
+    color:rgb(5, 192, 192);
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.social i{
+    border: 1px solid #dadada;
+    border-radius: 20%;
+    box-shadow: 3px 4px 5px #dadada;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 10px;
+}
+.social i:hover{
+    box-shadow: 3px 4px 5px violet;
+    cursor: pointer;
+}
+.fa-facebook{
+    color: #4267B2;
+}

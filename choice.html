@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="choice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>User choice</title>
+</head>
+<body>
+    <div align="center">
+        <h3 style="color: rgb(25, 107, 184);">Choose the domain : </h3>
+        <div class="choice-user">
+            <label for="choice"> <input type="radio" name="choice" id="math" value="Mathematics">Mathematics</label>
+            <br>
+            <label for="choice"> <input type="radio" name="choice" id="prog" value="Programming">Programming</label>
+            <br>
+            <label for="choice"> <input type="radio" name="choice" id="aff" value="Current Affairs">Current Affairs</label>
+        </div>
+
+    </div>
+    <div align="center" class="form-div">
+        
+            <h3>Please fill up the details correctly if you want your score card </h3>
+            <h5 style="color: red;">*This information will be reflected in your score card</h5>
+            <label for="fname">First Name</label>
+            <span><input class="form-control" type="text" name="fname" id="fname" placeholder="First Name" ></span>
+            <br>
+            <label for="lname">Last Name</label>
+            <span><input class="form-control" type="text" name="lname" placeholder="Last Name" ></span>
+            <br>
+            <label for="email">Email</label>
+            <span><input class="form-control" type="email" name="email" placeholder="Email" ></span>
+        <br>
+        <div>
+            <a class="start-quiz-div" href="">
+                <button type="submit" class="btn btn-success start-quiz">Start the quiz</button>
+            </a>
+        </div>
+    </div>
+    <script src="js1.js"></script>
+</body>
+</html>

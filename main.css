@@ -1,0 +1,42 @@
+body{
+    overflow-x: hidden;
+}
+.home-head{
+    padding: 100px;
+    color: rgb(40, 122, 177);
+    animation: enlarge 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes enlarge{
+    0%{
+        transform: scale(1.2);
+    }
+    25%{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(1.2);
+    }
+    45%{
+        transform: scale(1);
+    }
+   70%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.btn{
+    background-color: rgb(51, 209, 64);
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+    box-shadow: 3px 3px 3px #dadada;
+}
+.btn:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+    box-shadow: 2px 2px 2px violet;
+    transition: 0.7s;
+}

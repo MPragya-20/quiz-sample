@@ -1,0 +1,22 @@
+.form-div{
+    padding-top: 20px;
+}
+.form-div input{
+    width: 300px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-div label{
+    color: rgb(44, 135, 219);
+}
+.choice-user{
+    background-color: rgb(229, 213, 255);
+    margin:0px 50px;
+}
+.choice-user label{
+    margin: 10px;
+    color: rgb(161, 13, 136);
+    
+}
+#math, #prog, #aff{
+    margin: 20px;
+}
